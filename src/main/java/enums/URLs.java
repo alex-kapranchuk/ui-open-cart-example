@@ -2,8 +2,8 @@ package enums;
 
 
 public enum URLs {
-    BASE_URL("http://localhost/opencartsite/index.php?route=common/home"),
-    ADMIN_LOGIN_URL("http://localhost/opencartsite/admin/index.php?route=common/login");
+
+    BASE_URL("https://demo.opencart.com/index.php?route=common/home");
 
     private final String value;
 
