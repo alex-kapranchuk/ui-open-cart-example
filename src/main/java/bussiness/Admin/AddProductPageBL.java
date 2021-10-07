@@ -4,7 +4,7 @@ import models.CreateProductModel;
 import pages.Admin.AddProductPage;
 import repository.Admin.CreateProductAdminRepository;
 
-public class AddProductPageBL{
+public class AddProductPageBL {
     private final AddProductPage addProductPage;
 
     public AddProductPageBL() {

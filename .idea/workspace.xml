@@ -5,20 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45bcf9ee-f6c8-42c6-8428-9bb49bce4536" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_56_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_56_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_56__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_56__Changes_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_59_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_59_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_59__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MentorshipOpenCart.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/TaxClassesPageBL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/TaxRatesPageBL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/TaxRateModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/Admin/CurrencyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/Admin/TaxRatesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TaxesTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_56_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_56_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_56__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_56__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_59_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_59_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_59__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentorshipOpenCart.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/Admin/AddProductPageBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/AddProductPageBL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/HeaderPageBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bussiness/HeaderPageBL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/HomePageBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bussiness/HomePageBL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/URLs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/URLs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AddToCartTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddToCartTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +42,32 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
+  <component name="ProjectId" id="1zAepLtQUmP8FcpW11Q4vaSPum9" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RunManager" selected="TestNG.AddToCartTests.addToCardFeatured">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="MentorshipOpenCart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="MentorshipOpenCart" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AddToCartTests.addToCardFeatured" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MentorshipOpenCart" />
       <option name="PACKAGE_NAME" value="" />
@@ -102,10 +138,27 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45bcf9ee-f6c8-42c6-8428-9bb49bce4536" name="Changes" comment="" />
+      <created>1633595508884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633595508884</updated>
+    </task>
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -30,8 +30,6 @@ public class HeaderPageBL {
         headerPage.getRegisterButton().click();
         return new RegisterPageBL();
     }
-<<<<<<< Updated upstream
-=======
 
     private boolean isTextOnCardChanged(String text){
        return headerPage.getItemsCounter().getText().equals(text);
@@ -66,5 +64,4 @@ public class HeaderPageBL {
         headerPage.getEuroButton().click();
     }
 
->>>>>>> Stashed changes
 }

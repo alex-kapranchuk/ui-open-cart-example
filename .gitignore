@@ -1,4 +1,6 @@
-# Created by .ignore support plugin (hsz.mobi)
+# Project exclude paths
+/target/
+
 ### Java template
 # Compiled class file
 *.class
@@ -47,6 +49,3 @@ out/
 **/pages/*.html
 **/har/*.har
 **/allure-report.zip
-.idea/misc.xml
-.idea/compiler.xml
-.idea/compiler.xml

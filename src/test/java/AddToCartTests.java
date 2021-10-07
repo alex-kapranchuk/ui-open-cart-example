@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class AddToCartTests extends BaseTest{
 
     @Test
-    public void addToCardFeatured(){
+    public void addToCardFeatured() throws InterruptedException {
         new Navigation().navigateToUrl(URLs.BASE_URL.getValue());
         HomePageBL homePageBL = new HomePageBL();
         homePageBL.
