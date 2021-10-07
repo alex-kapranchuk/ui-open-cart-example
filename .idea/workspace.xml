@@ -29,7 +29,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="build.tools" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Navis\Documents\GitHub\UI_Automation_Oleksandr" />
+    </key>
   </component>
   <component name="RunManager" selected="TestNG.AddToCartTests.addToCardFeatured">
     <configuration default="true" type="JetRunConfigurationType">
@@ -107,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddToCartTests.addToCardFeatured" />
         <item itemvalue="TestNG.TaxesTests.AddNewTaxesTest" />
         <item itemvalue="TestNG.SearchTests.addNewProductTest" />
         <item itemvalue="TestNG.CurrencyTests.deleteCreatedCurrenciesTest" />
         <item itemvalue="TestNG.CurrencyTests.addNewCurrencyTest" />
-        <item itemvalue="TestNG.AddToCartTests.addToCardFeatured" />
       </list>
     </recent_temporary>
   </component>
@@ -131,8 +140,26 @@
       <option name="project" value="LOCAL" />
       <updated>1633596289446</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Flow 3">
+      <created>1633597143671</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633597143671</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
