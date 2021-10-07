@@ -4,82 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aba57f29-24bb-47e8-9c81-5d67aa665b1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/AddCurrenciesPageBL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/AddProductPageBL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/AddTaxRatesPageBL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/NavigationBarBL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/TaxClassesPageBL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/TaxRatesPageBL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bussiness/ProductPageBL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/CurrencyModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/TaxRateModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Admin/AddCurrenciesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Admin/AddTaxRatesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Admin/CurrenciesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Admin/TaxClassesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Admin/TaxRatesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/Admin/CreateProductAdminRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/Admin/CurrencyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/Admin/LoginAdminRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/Admin/TaxRatesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AddToCartTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CurrencyTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TaxesTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/AddProductPageBL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/Admin/LoginPageBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/LoginPageBL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/Admin/ProductsPageBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/ProductsPageBL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/HeaderPageBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bussiness/HeaderPageBL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/NavigationBarBL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Admin/NavigationBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Admin/NavigationBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HeaderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HeaderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/CreateProductAdminRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/LoginAdminRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DriverUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DriverUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTests.java" afterDir="false" />
+    <list default="true" id="45bcf9ee-f6c8-42c6-8428-9bb49bce4536" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_56_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_56_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_56__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_56__Changes_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_59_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_59_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2021_9_59__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MentorshipOpenCart.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/Admin/AddProductPageBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/AddProductPageBL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="AnnotationType" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1yOVXy6HNHnO1CV9kTdsNwj8BWt" />
-  <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
-    <option name="autoscrollToSource" value="true" />
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/prestashop-test-task-master" />
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="RunManager" selected="TestNG.AddToCartTests.addToCardFeatured">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AddToCartTests.addToCardFeatured" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MentorshipOpenCart" />
       <option name="PACKAGE_NAME" value="" />
@@ -142,35 +94,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AddToCartTests.addToCardFeatured" />
         <item itemvalue="TestNG.TaxesTests.AddNewTaxesTest" />
+        <item itemvalue="TestNG.SearchTests.addNewProductTest" />
         <item itemvalue="TestNG.CurrencyTests.deleteCreatedCurrenciesTest" />
         <item itemvalue="TestNG.CurrencyTests.addNewCurrencyTest" />
-        <item itemvalue="TestNG.SearchTests.addNewProductTest" />
+        <item itemvalue="TestNG.AddToCartTests.addToCardFeatured" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="aba57f29-24bb-47e8-9c81-5d67aa665b1a" name="Changes" comment="" />
-      <created>1632122666418</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1632122666418</updated>
-    </task>
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
