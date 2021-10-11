@@ -14,7 +14,7 @@ public class ProductsPage extends BasePage {
     @FindBy(xpath = "//tr[td[contains(@class, 'text-left')] = 'Nokia']//input[@name='selected[]']")
     private WebElement selectProduct;
     @FindBy(xpath = "//*[@class='alert alert-success alert-dismissible']")
-    private WebElement allerSuccessModified;
+    private WebElement allerSuccessModified; // refactor - DriverUtils (standard alert)
 
     public WebElement getAddNewProduct() {
         wait.until(ExpectedConditions.visibilityOf(addNewProduct));

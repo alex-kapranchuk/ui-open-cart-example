@@ -83,4 +83,16 @@ public class HomePageBL {
         int randomProduct = random.nextInt(maxProducts);
         products.get(randomProduct).click();
     }
+
+    public HomePageBL verifyTaxIsAdded(){
+        clickOnCartButton();
+        String expectedMessage = "TestTax";
+        Assert.assertEquals(homePage.getTaxCounter().getText(), expectedMessage, "Error - Incorrect title of Tax");
+        return this;
+    }
+
+    public void clickOnCartButton(){
+        homePage.getCartButton().click();
+    }
+
 }

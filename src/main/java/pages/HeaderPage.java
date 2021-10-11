@@ -19,8 +19,6 @@ public class HeaderPage extends BasePage {
     @FindBy(xpath = "//*[@id='form-currency']")
     private WebElement formCurrency;
 
-    @FindBy(xpath = "//*[contains(text(),'TestTax')]")
-    private WebElement taxCounter;
 
     @FindBy(name = "EUR")
     private WebElement euroButton;

@@ -1,4 +1,7 @@
 import bussiness.Admin.*;
+import bussiness.HeaderPageBL;
+import bussiness.HomePageBL;
+import bussiness.ProductPageBL;
 import enums.URLs;
 import navigation.Navigation;
 import org.testng.annotations.Test;
@@ -7,7 +10,7 @@ import pages.Admin.TaxRatesPage;
 public class TaxesTests extends BaseTest{
 
     @Test
-    public void AddNewTaxesTest() throws InterruptedException {
+    public void AddNewTaxesTest() {
         new Navigation().navigateToUrl(URLs.ADMIN_LOGIN_URL.getValue());
         LoginPageBL loginPageBL = new LoginPageBL();
         loginPageBL.
@@ -17,7 +20,7 @@ public class TaxesTests extends BaseTest{
                 verifySuccessfulLogin();
         NavigationBarBL navigationBarBL = new NavigationBarBL();
         navigationBarBL.
-                goToTheTaxRates();
+                goToTheTaxRatesFromDashboard();
         TaxRatesPageBL taxRatesPageBL = new TaxRatesPageBL();
         taxRatesPageBL.
                 clickCreateTax();
@@ -29,7 +32,39 @@ public class TaxesTests extends BaseTest{
         TaxClassesPageBL taxClassesPageBL = new TaxClassesPageBL();
         taxClassesPageBL.
                 addTaxToTheClasses(); // rule [2-3] selector -  A thin place
-        Thread.sleep(3000);
-
+        new Navigation().navigateToUrl(URLs.BASE_URL.getValue());
+        HomePageBL homePageBL = new HomePageBL();
+        homePageBL.
+                searchFoundProduct()
+                .selectRandomProductForBuy();
+        ProductPageBL productPageBL = new ProductPageBL();
+        productPageBL.
+                clickOnAddToCartButton();
+        homePageBL.
+                verifyTaxIsAdded();
+    }
+    @Test
+    public void deleteTaxes(){
+        new Navigation().navigateToUrl(URLs.ADMIN_LOGIN_URL.getValue());
+        LoginPageBL loginPageBL = new LoginPageBL();
+        loginPageBL.
+                loginAsAdmin();
+        DashboardPageBL dashboardPageBL = new DashboardPageBL();
+        dashboardPageBL.
+                verifySuccessfulLogin();
+        NavigationBarBL navigationBarBL = new NavigationBarBL();
+        navigationBarBL.
+                goToTheTaxClassesFromDashboard();
+        TaxClassesPageBL taxClassesPageBL = new TaxClassesPageBL();
+        taxClassesPageBL.
+                deleteTaxClasses()
+                .verifySuccessfulAlertClasses();
+        navigationBarBL.
+                goToTheTaxRates();
+        TaxRatesPageBL taxRatesPageBL = new TaxRatesPageBL();
+        taxRatesPageBL.
+                deleteTaxRates();
+        taxRatesPageBL.
+                verifySuccessfulAlertRates();
     }
 }

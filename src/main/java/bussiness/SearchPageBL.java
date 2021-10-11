@@ -49,7 +49,6 @@ public class SearchPageBL {
 
     public List<String> getProductsTitles() {
         return searchPage.getProducts().stream().map(ProductsContainer::getProductName).collect(Collectors.toList());
-
     }
 
     public void verifyCurrency(String expected) {

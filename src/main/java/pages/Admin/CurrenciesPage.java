@@ -15,7 +15,7 @@ public class CurrenciesPage extends BasePage {
     @FindBy(xpath = "//tr[td[contains(@class, 'text-left')] = 'Гривня ']//input[@name='selected[]']")
     private WebElement selectCurrencies;
 
-    @FindBy(xpath = "//*[@class =\"alert alert-success alert-dismissible\"]")
+    @FindBy(xpath = "//*[@class ='alert alert-success alert-dismissible']")
     private WebElement alertMessage;
 
     public WebElement getAlertMessage() {
@@ -33,7 +33,8 @@ public class CurrenciesPage extends BasePage {
     public WebElement getSelectCurrencies() {
         return selectCurrencies;
     }
+
     public void AcceptAlert(){
         driver.switchTo().alert().accept();
-    }
+    } // refactor to DriverUtils
 }

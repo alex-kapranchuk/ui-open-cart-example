@@ -22,18 +22,26 @@ public class NavigationBarBL {
         clickOnSystemLocalizationCurrenciesTab();
         return this;
     }
-    public NavigationBarBL goToTheTaxRates(){
+    public NavigationBarBL goToTheTaxRatesFromDashboard(){
         clickOnSystemTab();
         clickOnSystemLocalizationTab();
         clickOnTaxesTab();
         clickOnTaxRates();
         return this;
     }
+    public NavigationBarBL goToTheTaxRates(){
+        clickOnTaxRates();
+        return this;
+    }
 
     public NavigationBarBL goToTheTaxClasses(){
-//        clickOnSystemTab();
-//        clickOnSystemLocalizationTab();
-//        clickOnTaxesTab();
+        clickOnClasses();
+        return this;
+    }
+    public NavigationBarBL goToTheTaxClassesFromDashboard() {
+        clickOnSystemTab();
+        clickOnSystemLocalizationTab();
+        clickOnTaxesTab();
         clickOnClasses();
         return this;
     }

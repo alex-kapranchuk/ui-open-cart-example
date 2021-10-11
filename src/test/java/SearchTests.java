@@ -60,7 +60,7 @@ public class SearchTests extends BaseTest {
     }
 
     @Test
-    public void deleteCreatedProductTest() throws InterruptedException {
+    public void deleteCreatedProductTest(){
         new Navigation().navigateToUrl(URLs.ADMIN_LOGIN_URL.getValue());
         LoginPageBL loginPageBL = new LoginPageBL();
         loginPageBL.
@@ -73,7 +73,7 @@ public class SearchTests extends BaseTest {
                 goToTheProductsPage();
         ProductsPageBL productsPageBL = new ProductsPageBL();
         productsPageBL.
-                deleteCreatedProduct();
-        //Assert for delete
+                deleteCreatedProduct()
+                .verifySuccessfulAlert();
     }
 }

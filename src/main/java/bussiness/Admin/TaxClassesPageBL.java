@@ -1,6 +1,7 @@
 package bussiness.Admin;
 
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import pages.Admin.TaxClassesPage;
 
 public class TaxClassesPageBL {
@@ -18,6 +19,16 @@ public class TaxClassesPageBL {
         return this;
     }
 
+    public TaxClassesPageBL deleteTaxClasses(){
+        editTaxableGoods();
+        removeRuleFromClasses();
+        saveTaxClasses();
+        return this;
+    }
+
+
+
+    private void removeRuleFromClasses(){taxClassesPage.getRemoveTaxRateButton().click();}
     private void editTaxableGoods(){
         taxClassesPage.getEditTaxableGoods().click();
     }
@@ -31,7 +42,7 @@ public class TaxClassesPageBL {
         taxClassesPage.getSaveTaxClasses().click();
     }
 
-
-
-
+    public void verifySuccessfulAlertClasses() {
+        Assert.assertTrue(taxClassesPage.getAllerSuccessModified().getText().contains("Success: You have modified tax classes!"), "Error - Incorrect title");
+    }
 }

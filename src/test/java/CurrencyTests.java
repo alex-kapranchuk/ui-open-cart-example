@@ -50,7 +50,7 @@ public class CurrencyTests extends BaseTest {
     }
 
     @Test
-    public void deleteCreatedCurrenciesTest() throws InterruptedException {
+    public void deleteCreatedCurrenciesTest() {
         new Navigation().navigateToUrl(URLs.ADMIN_LOGIN_URL.getValue());
         LoginPageBL loginPageBL = new LoginPageBL();
         loginPageBL.
