@@ -33,6 +33,4 @@ public class LoginPageBL {
     private void clickButton() {
         loginPage.getLoginButton().click();
     }
-
-
 }

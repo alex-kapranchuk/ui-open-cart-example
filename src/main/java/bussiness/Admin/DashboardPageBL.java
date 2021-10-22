@@ -13,10 +13,8 @@ public class DashboardPageBL {
         this.dashboardPage = new DashboardPage();
     }
 
-
     public void verifySuccessfulLogin() {
         String expectedMessage = "Dashboard";
         Assert.assertEquals(dashboardPage.getDashboard().getText(), expectedMessage, "Error - Incorrect title after Login");
     }
-
 }

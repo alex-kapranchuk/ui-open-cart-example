@@ -6,9 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class ProductsPage extends BasePage{
-
-
+public class ProductsPage extends BasePage {
 
     @FindBy(xpath = "//*[@id='button-cart']")
     private WebElement addToCartButton;
@@ -37,7 +35,4 @@ public class ProductsPage extends BasePage{
     public WebElement getAddToCartButton() {
         return addToCartButton;
     }
-
-
-
 }

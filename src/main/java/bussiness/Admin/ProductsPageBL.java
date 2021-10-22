@@ -8,7 +8,6 @@ public class ProductsPageBL {
 
     private final ProductsPage productsPage;
 
-
     public ProductsPageBL() {
         this.productsPage = new ProductsPage();
     }
@@ -29,7 +28,6 @@ public class ProductsPageBL {
     private void clickOnDeleteSelectedProduct() {
         productsPage.getDeleteProduct().click();
     }
-
 
     public ProductsPageBL deleteCreatedProduct() {
         selectDeleteProduct();

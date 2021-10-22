@@ -64,5 +64,4 @@ public class CurrencyTests extends BaseTest {
         addCurrenciesPageBL.
                 verifyCurrenciesAlertMessage();
     }
-
 }

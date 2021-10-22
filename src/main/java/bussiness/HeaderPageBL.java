@@ -63,5 +63,4 @@ public class HeaderPageBL {
     private void clickOnEuroButton(){
         headerPage.getEuroButton().click();
     }
-
 }

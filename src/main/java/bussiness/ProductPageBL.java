@@ -30,10 +30,7 @@ public class ProductPageBL {
     private void clickRemove(){
         productsPage.getRemoveFromCardButton().click();
     }
-
     /*public void verifyAlertMessage() {
         Assert.assertTrue(productsPage.getAlertMessage().getText().contains("Success: You have added MacBook to your shopping cart!"));
     }*/
-
-
 }

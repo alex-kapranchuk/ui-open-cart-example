@@ -75,7 +75,6 @@ public class AddCurrenciesPageBL {
         addCurrenciesPage.getValue().sendKeys(value);
     }
 
-
     private void clickSaveCurrency() {
         addCurrenciesPage.getSaveCurrency().click();
     }

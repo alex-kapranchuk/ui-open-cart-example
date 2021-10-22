@@ -50,6 +50,4 @@ public class TaxClassesPage extends BasePage {
     public WebElement getSaveTaxClasses() {
         return saveTaxClasses;
     }
-
-
 }

@@ -13,7 +13,7 @@ public class LoginPage extends BasePage {
     @FindBy(name = "password")
     private WebElement inputPassword;
     @FindBy(xpath = "//*[contains(text(), ' Login')]")
-    private WebElement LoginButton;
+    private WebElement loginButton;
 
     public WebElement getInputUsername() {
         return inputUsername;
@@ -24,8 +24,6 @@ public class LoginPage extends BasePage {
     }
 
     public WebElement getLoginButton() {
-        return LoginButton;
+        return loginButton;
     }
-
-
 }

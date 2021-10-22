@@ -40,7 +40,4 @@ public class HomePage extends BasePage {
     public WebElement getClickSearch() {
         return clickSearch;
     }
-
-
-
 }

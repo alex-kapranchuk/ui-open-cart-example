@@ -10,7 +10,7 @@ public class AddProductPage extends BasePage {
     @FindBy(id = "input-meta-title1")
     private WebElement inputMetaTag;
     @FindBy(xpath = "//a[contains(@href,'#tab-data')]")
-    private WebElement DataNavigationTab;
+    private WebElement dataNavigationTab;
     @FindBy(name = "model")
     private WebElement inputProductModel;
     @FindBy(xpath = "//*[@class='fa fa-save']")
@@ -33,7 +33,6 @@ public class AddProductPage extends BasePage {
     }
 
     public WebElement getDataNavigationTab() {
-        return DataNavigationTab;
+        return dataNavigationTab;
     }
-
 }

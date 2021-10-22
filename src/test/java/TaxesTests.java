@@ -43,6 +43,7 @@ public class TaxesTests extends BaseTest{
         homePageBL.
                 verifyTaxIsAdded();
     }
+
     @Test
     public void deleteTaxes(){
         new Navigation().navigateToUrl(URLs.ADMIN_LOGIN_URL.getValue());

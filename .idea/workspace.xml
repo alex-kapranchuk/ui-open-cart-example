@@ -6,21 +6,31 @@
   <component name="ChangeListManager">
     <list default="true" id="45bcf9ee-f6c8-42c6-8428-9bb49bce4536" name="Changes" comment="Flow 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/Admin/NavigationBarBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/NavigationBarBL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/Admin/AddCurrenciesPageBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/AddCurrenciesPageBL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/Admin/AddTaxRatesPageBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/AddTaxRatesPageBL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/Admin/DashboardPageBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/DashboardPageBL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/Admin/LoginPageBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/LoginPageBL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/Admin/ProductsPageBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/ProductsPageBL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/Admin/TaxClassesPageBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/TaxClassesPageBL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/Admin/TaxRatesPageBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bussiness/Admin/TaxRatesPageBL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/HomePageBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bussiness/HomePageBL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/HeaderPageBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bussiness/HeaderPageBL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/ProductPageBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bussiness/ProductPageBL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bussiness/SearchPageBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bussiness/SearchPageBL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enums/URLs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/URLs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Admin/CurrenciesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Admin/CurrenciesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/LoginAdminModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/LoginAdminModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/UserRegisterModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/UserRegisterModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Admin/AddProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Admin/AddProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Admin/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Admin/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Admin/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Admin/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Admin/NavigationBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Admin/NavigationBar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/Admin/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Admin/ProductsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/Admin/TaxClassesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Admin/TaxClassesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/Admin/TaxRatesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Admin/TaxRatesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HeaderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HeaderPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AddToCartTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddToCartTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CurrencyTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CurrencyTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TaxesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TaxesTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +54,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Studying" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -56,7 +66,18 @@
       <recent name="C:\Users\Navis\Documents\GitHub\UI_Automation_Oleksandr" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TaxesTests.deleteTaxes">
+  <component name="RunManager" selected="TestNG.CurrencyTests">
+    <configuration name="AddToCartTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MentorshipOpenCart" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AddToCartTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AddToCartTests.addToCardFeatured" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MentorshipOpenCart" />
       <option name="PACKAGE_NAME" value="" />
@@ -69,24 +90,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrencyTests.deleteCreatedCurrenciesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CurrencyTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MentorshipOpenCart" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CurrencyTests" />
-      <option name="METHOD_NAME" value="deleteCreatedCurrenciesTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchTests.addNewProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MentorshipOpenCart" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchTests" />
-      <option name="METHOD_NAME" value="addNewProductTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -119,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CurrencyTests" />
+        <item itemvalue="TestNG.AddToCartTests" />
         <item itemvalue="TestNG.TaxesTests.deleteTaxes" />
         <item itemvalue="TestNG.TaxesTests.AddNewTaxesTest" />
         <item itemvalue="TestNG.AddToCartTests.addToCardFeatured" />
-        <item itemvalue="TestNG.SearchTests.addNewProductTest" />
-        <item itemvalue="TestNG.CurrencyTests.deleteCreatedCurrenciesTest" />
       </list>
     </recent_temporary>
   </component>

@@ -36,5 +36,4 @@ public class ProductsPage extends BasePage {
     public void AcceptAlert(){
         driver.switchTo().alert().accept();
     }
-
 }

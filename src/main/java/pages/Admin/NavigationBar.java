@@ -7,21 +7,21 @@ import pages.BasePage;
 
 public class NavigationBar extends BasePage {
 
-    @FindBy(xpath = "//*[@id='menu-catalog']/a")
+    @FindBy(xpath = "//*[@id='menu-catalog']")
     private WebElement catalogTab;
-    @FindBy(xpath = "//*[@id='collapse1']/li[2]/a")
+    @FindBy(xpath = "//*[contains( text(),'Products')]")
     private WebElement catalogProductsTab;
-    @FindBy(xpath = "//*[@id='menu-system']/a")
+    @FindBy(xpath = "//*[contains( text(),' System')]")
     private WebElement systemTab;
-    @FindBy(xpath = "//*[@id='collapse7']/li[3]/a")
+    @FindBy(xpath = "//*[contains( text(),'Localisation')]")
     private WebElement systemLocalisationTab;
-    @FindBy(xpath = "//*[@id='collapse7-2']/li[3]")
+    @FindBy(xpath = "//*[contains( text(),'Currencies')]")
     private WebElement systemLocalisationCurrenciesTab;
-    @FindBy(xpath = "//*[@id='collapse7-2']/li[10]/a")
+    @FindBy(xpath = "//*[contains( text(),'Taxes')]")
     private WebElement systemLocalizationTaxesTab;
-    @FindBy(xpath = "//*[@id='collapse-7-2-9']/li[2]/a")
+    @FindBy(xpath = "//*[contains( text(),'Tax Rates')]")
     private WebElement systemLocalizationTaxesTexRatesTab;
-    @FindBy(xpath = "//*[@id='collapse-7-2-9']/li[1]/a")
+    @FindBy(xpath = "//*[contains( text(),'Tax Classes')]")
     private WebElement systemLocalizationTaxesTexClassesTab;
 
     public WebElement getSystemLocalizationTaxesTab() {

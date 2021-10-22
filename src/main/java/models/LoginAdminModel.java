@@ -1,6 +1,7 @@
 package models;
 
 import lombok.Getter;
+
 @Getter
 
 public class LoginAdminModel {
@@ -8,7 +9,7 @@ public class LoginAdminModel {
     private String userName;
     private String password;
 
-    public static LoginAdminModel.Builder builder(){
+    public static LoginAdminModel.Builder builder() {
         return new LoginAdminModel().new Builder();
     }
 
@@ -22,9 +23,9 @@ public class LoginAdminModel {
             password = value;
             return this;
         }
-        public LoginAdminModel build(){
+
+        public LoginAdminModel build() {
             return LoginAdminModel.this;
         }
     }
-
 }

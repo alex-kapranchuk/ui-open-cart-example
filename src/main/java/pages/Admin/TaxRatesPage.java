@@ -18,8 +18,7 @@ public class TaxRatesPage extends BasePage {
     private WebElement allerSuccessModified;
 
     public WebElement getAllerSuccessModified() {
-        return allerSuccessModified;
-    }
+        return allerSuccessModified;}
 
     public WebElement getTrashTax(){return trashTax;}
 

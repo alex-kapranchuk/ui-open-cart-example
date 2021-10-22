@@ -7,7 +7,7 @@ import pages.Admin.TaxClassesPage;
 public class TaxClassesPageBL {
     private final TaxClassesPage taxClassesPage;
 
-    public TaxClassesPageBL(){
+    public TaxClassesPageBL() {
         this.taxClassesPage = new TaxClassesPage();
     }
 
@@ -19,26 +19,30 @@ public class TaxClassesPageBL {
         return this;
     }
 
-    public TaxClassesPageBL deleteTaxClasses(){
+    public TaxClassesPageBL deleteTaxClasses() {
         editTaxableGoods();
         removeRuleFromClasses();
         saveTaxClasses();
         return this;
     }
 
+    private void removeRuleFromClasses() {
+        taxClassesPage.getRemoveTaxRateButton().click();
+    }
 
-
-    private void removeRuleFromClasses(){taxClassesPage.getRemoveTaxRateButton().click();}
-    private void editTaxableGoods(){
+    private void editTaxableGoods() {
         taxClassesPage.getEditTaxableGoods().click();
     }
-    private void addRuleToTheClass(){
+
+    private void addRuleToTheClass() {
         taxClassesPage.getPlusTaxRatesToClasses().click();
     }
-    private void selectTestTax(){
+
+    private void selectTestTax() {
         new Select(taxClassesPage.getListTaxRate()).selectByVisibleText("TestTax");
     }
-    private void saveTaxClasses(){
+
+    private void saveTaxClasses() {
         taxClassesPage.getSaveTaxClasses().click();
     }
 

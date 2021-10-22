@@ -36,5 +36,4 @@ public class AddTaxRatesPageBL {
     private void clickSaveTaxRate(){
         addTaxRatesPage.getSaveTaxRates().click();
     }
-
 }

@@ -15,12 +15,12 @@ public class TaxRatesPageBL {
         currenciesPage = new CurrenciesPage();
     }
 
-    public TaxRatesPageBL clickCreateTax(){
+    public TaxRatesPageBL clickCreateTax() {
         clickOnPlus();
-     return this;
+        return this;
     }
 
-    public TaxRatesPageBL deleteTaxRates(){
+    public TaxRatesPageBL deleteTaxRates() {
         selectTestTax();
         clickOnTrashTax();
         getWindowPopUp();
@@ -28,19 +28,22 @@ public class TaxRatesPageBL {
     }
 
     public void verifySuccessfulAlertRates() {
-    Assert.assertTrue(taxRatesPage.getAllerSuccessModified().getText().contains("Success: You have modified tax rates!"), "Error - Incorrect title after add new product");
-}
+        Assert.assertTrue(taxRatesPage.getAllerSuccessModified().getText().contains("Success: You have modified tax rates!"), "Error - Incorrect title after add new product");
+    }
 
-    private void getWindowPopUp(){
+    private void getWindowPopUp() {
         currenciesPage.AcceptAlert();
     }
 
-    private void clickOnTrashTax(){taxRatesPage.getTrashTax().click();}
+    private void clickOnTrashTax() {
+        taxRatesPage.getTrashTax().click();
+    }
 
-    private void clickOnPlus(){
+    private void clickOnPlus() {
         taxRatesPage.getPlusTaxRate().click();
     }
 
-    private void selectTestTax(){taxRatesPage.getSelectTestTax().click();}
-
+    private void selectTestTax() {
+        taxRatesPage.getSelectTestTax().click();
+    }
 }

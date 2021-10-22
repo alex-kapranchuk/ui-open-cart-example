@@ -20,7 +20,6 @@ public class SearchPageBL {
 
     private final SearchPage searchPage;
 
-
     public SearchPageBL() {
         this.searchPage = new SearchPage();
     }

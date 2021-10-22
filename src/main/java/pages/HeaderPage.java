@@ -26,7 +26,7 @@ public class HeaderPage extends BasePage {
     @FindBy(name = "UAH")
     private WebElement hryvnia;
 
-    public WebElement getHryvnia(){
+    public WebElement getHryvnia() {
         return hryvnia;
     }
 
@@ -34,6 +34,7 @@ public class HeaderPage extends BasePage {
         wait.until(ExpectedConditions.visibilityOf(myAccountButton));
         return myAccountButton;
     }
+
     public WebElement getRegisterButton() {
         return registerButton;
     }
@@ -41,10 +42,12 @@ public class HeaderPage extends BasePage {
     public WebElement getItemsCounter() {
         return itemsCounter;
     }
-    public WebElement getFormCurrency(){
+
+    public WebElement getFormCurrency() {
         return formCurrency;
     }
-    public WebElement getEuroButton(){
+
+    public WebElement getEuroButton() {
         return euroButton;
     }
 }

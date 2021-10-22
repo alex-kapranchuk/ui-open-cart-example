@@ -6,7 +6,7 @@ import pages.BasePage;
 
 public class DashboardPage extends BasePage {
 
-    @FindBy(xpath = "//*[@id='content']/div[1]/div/h1")
+    @FindBy(xpath = "//*/h1[contains( text(),'Dashboard')]")
     private WebElement dashboard;
 
     public WebElement getDashboard() {
