@@ -30,8 +30,6 @@ public class HomePageBL {
         SearchModel model = SearchProductRepository.getMissingProductModel();
         inputMissingProduct(model.getInValidProduct());
         clickButton();
-
-
         searchPageBL = new SearchPageBL();
         return this;
     }

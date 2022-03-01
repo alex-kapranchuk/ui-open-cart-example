@@ -35,7 +35,7 @@ public class HeaderPageBL {
        return headerPage.getItemsCounter().getText().equals(text);
     }
 
-    public void verifyItemsCounter1() {
+    public void verifyItemsCounter1() { // ревю в праметр  0 , 1
         String oldText = headerPage.getItemsCounter().getText();
         new DriverUtils().getDriverWait(10).until(driver -> !isTextOnCardChanged(oldText));
         Assert.assertTrue(headerPage.getItemsCounter().getText().contains("1 item(s)"), "Error - Incorrect amount of item`s ");
