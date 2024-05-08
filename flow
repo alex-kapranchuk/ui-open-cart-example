@@ -1,9 +1,9 @@
-по фловах:
-1. Пошук продуктів/додавання нових продуктів в адмін пейджі, перевірка що нові продукти додалися на
-основному сайті через пошук
-2. Додавання продуктів в корзину
-3. Валюта:
- - зміна валюти на самому сайті (перевірка що ціни на продукти змінилися відповідно до нової валюти)
-- Додавання нової валюти на адмін пейджі - перевірка що валюта додалася на основній пейджі.
-- Додавання нових податків (на адмін пейджі) - тут треба погуглити
-(в самій документації опен карту) як вони додаються, також треба буде взаємодіяти з адмін пейджою
+by flows:
+1. Searching for products/adding new products in the admin page, checking that new products have been added to
+main site through search
+2. Adding products to the basket
+3. Currency:
+  - currency change on the site itself (checking that product prices have changed according to the new currency)
+- Adding a new currency to the admin page - checking that the currency has been added to the main page.
+- Adding new taxes (on the admin page)
+(in the open map documentation itself) as they are added, you will also need to interact with the admin page

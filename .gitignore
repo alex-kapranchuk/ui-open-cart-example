@@ -48,4 +48,5 @@ out/
 /*.log
 **/pages/*.html
 **/har/*.har
-**/allure-report.zip
+**/allure-report.zip!/.idea/
+/.idea/
