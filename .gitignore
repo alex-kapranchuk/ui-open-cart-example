@@ -39,7 +39,7 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 
 .gradle/
-.idea/*
+**/.idea/*
 allure-report/
 allure-results/
 build/
